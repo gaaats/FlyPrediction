@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/naavigatione"
+    app:startDestination="@id/starterrrFragment">
+
+    <fragment
+        android:id="@+id/starterrrFragment"
+        android:name="com.junesoftware.maskguns.StarterrrFragment"
+        android:label="fragment_starterrr"
+        tools:layout="@layout/fragment_starterrr" >
+        <action
+            android:id="@+id/action_starterrrFragment_to_ggggaaameFragment"
+            app:destination="@id/ggggaaameFragment" />
+        <action
+            android:id="@+id/action_starterrrFragment_to_infffoornFragment"
+            app:destination="@id/infffoornFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/ggggaaameFragment"
+        android:name="com.junesoftware.maskguns.GgggaaameFragment"
+        android:label="fragment_ggggaaame"
+        tools:layout="@layout/fragment_ggggaaame" >
+        <action
+            android:id="@+id/action_ggggaaameFragment_to_reloadFragment"
+            app:destination="@id/reloadFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/reloadFragment"
+        android:name="com.junesoftware.maskguns.ReloadFragment"
+        android:label="fragment_reload"
+        tools:layout="@layout/fragment_reload" >
+        <action
+            android:id="@+id/action_reloadFragment_to_starterrrFragment"
+            app:destination="@id/starterrrFragment"
+            app:launchSingleTop="true"
+            app:popUpTo="@id/starterrrFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/infffoornFragment"
+        android:name="com.junesoftware.maskguns.InfffoornFragment"
+        android:label="fragment_infffoorn"
+        tools:layout="@layout/fragment_infffoorn" />
+</navigation>

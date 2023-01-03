@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Fly Prediction</string>
+
+    <string name="app_name__frrf">© Fly Prediction</string>
+
+    <string name="take_take_imagee">Choose Image</string>
+
+    <string name="facebook_app_id">849360146212533</string>
+    <!--    <string name="facebook_app_id">1251798448719972 TEST</string>-->
+
+    <string name="fb_login_protocol_scheme">fb849360146212533</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="teeexty">For countries with a relatively large public sector, it is the efficiency of public institutions that determines the productivity of the economy as a whole and stimulates economic development.\nEnsuring the effective use of budget funds is one of the key problems of budget execution in most countries of the world. According to international practice, one of the mechanisms for ensuring the quality implementation of the use budget is program budgeting.\nAnalyzing the OECD guidelines and the practices of countries that are considered successful in terms of implementing program budgeting, the program-target method that operates in the budget system of Ukraine still does not meet generally accepted practices and standards, and, as a result, does not ensure the proper level of efficiency in the implementation of the expenditure part budget\nthe actual execution of the estimate by the Ministry of Defense of Ukraine, in terms of months, differs significantly from the approved allocation plan for the corresponding year, namely: the largest share of expenditures (more than 30% of the amount of annual allocations) is carried out in the last months of the year: November and December.\nAt the same time, at the end of the budget period, the evaluation use of funds is carried out ex post facto and does not affect the already approved annual budget. When planning and evaluating the level of efficiency of the use of funds, it is important to give weight to each of the criteria that must be taken into account. The list of such criteria is quite large and diverse.</string>
+</resources>
